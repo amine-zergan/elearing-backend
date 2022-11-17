@@ -6,6 +6,7 @@ class LearningProgress extends ManagedObject<_LearningProgess>
     implements _LearningProgess {}
 
 class _LearningProgess {
+  @Column(primaryKey: true)
   int? id;
   DateTime? started;
   DateTime? completed;

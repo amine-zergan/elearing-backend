@@ -1,7 +1,11 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:backend/backend.dart';
 import 'package:backend/configuration/application_config.dart';
 import 'package:backend/controller/users_model/instructor_controller.dart';
 import 'package:backend/controller/users_model/student_controller.dart';
+import 'package:backend/models/user_model/user_model.dart';
+import 'package:conduit/managed_auth.dart';
 
 /// This type initializes an application.
 ///
@@ -9,6 +13,7 @@ import 'package:backend/controller/users_model/student_controller.dart';
 /// database connections. See http://conduit.io/docs/http/channel/.
 class BackendChannel extends ApplicationChannel {
   ManagedContext? context;
+  AuthServer? authServer;
 
   /// Initialize services in this method.
   ///
@@ -34,6 +39,8 @@ class BackendChannel extends ApplicationChannel {
       ManagedDataModel.fromCurrentMirrorSystem(),
       persistentStore,
     );
+    final delegate = ManagedAuthDelegate<User>(context);
+    authServer = AuthServer(delegate);
   }
 
   /// Construct the request channel.
@@ -45,6 +52,8 @@ class BackendChannel extends ApplicationChannel {
   @override
   Controller get entryPoint {
     final router = Router()
+      ..route("/auth/token").link(() => AuthController(authServer))
+      ..route("/auth/code").link(() => AuthRedirectController(authServer!))
       ..route("/student").link(() => StudentController(context: context!))
       ..route("/instructor/[:id]")
           .link(() => InstructorController(context: context!));
