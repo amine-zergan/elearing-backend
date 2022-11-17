@@ -1,0 +1,6 @@
+database:
+  username: amine
+  password: password123
+  host: localhost
+  port: 5432
+  databaseName: elearning
