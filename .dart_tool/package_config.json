@@ -45,57 +45,57 @@
     },
     {
       "name": "conduit",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit-3.2.10",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit-3.2.11",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_codable",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_codable-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_codable-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_common",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_common-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_common-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_config",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_config-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_config-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_isolate_exec",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_isolate_exec-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_isolate_exec-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_open_api",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_open_api-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_open_api-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_password_hash",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_password_hash-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_password_hash-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_runtime",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_runtime-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_runtime-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "conduit_test",
-      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_test-3.2.9",
+      "rootUri": "file:///Users/aminemejri/.pub-cache/hosted/pub.dartlang.org/conduit_test-3.2.10",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "convert",
@@ -392,7 +392,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-11-16T08:32:02.547300Z",
+  "generated": "2022-11-18T19:08:16.527712Z",
   "generator": "pub",
   "generatorVersion": "2.18.0"
 }
